@@ -1,0 +1,445 @@
+[21-Aug-2026 13:00:03 UTC] ========== WPForms Submitted ==========
+[21-Aug-2026 13:00:03 UTC] Array
+(
+    [1] => Array
+        (
+            [name] => Name
+            [value] => Althaf
+            [id] => 1
+            [type] => name
+            [first] => 
+            [middle] => 
+            [last] => 
+        )
+
+    [2] => Array
+        (
+            [name] => Email
+            [value] => althaf@gmail.com
+            [id] => 2
+            [type] => email
+        )
+
+    [5] => Array
+        (
+            [name] => Message
+            [value] => hello
+            [id] => 5
+            [type] => textarea
+        )
+
+)
+
+[21-Aug-2026 13:00:03 UTC] ========== Form Data ==========
+[21-Aug-2026 13:00:03 UTC] Array
+(
+    [fields] => Array
+        (
+            [1] => Array
+                (
+                    [id] => 1
+                    [type] => name
+                    [label] => Name
+                    [format] => simple
+                    [description] => 
+                    [required] => 1
+                    [size] => medium
+                    [simple_placeholder] => 
+                    [simple_default] => 
+                    [first_placeholder] => 
+                    [first_default] => 
+                    [middle_placeholder] => 
+                    [middle_default] => 
+                    [last_placeholder] => 
+                    [last_default] => 
+                    [css] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 2
+                    [type] => email
+                    [label] => Email
+                    [description] => 
+                    [required] => 1
+                    [size] => medium
+                    [placeholder] => 
+                    [confirmation_placeholder] => 
+                    [default_value] => 
+                    [filter_type] => 
+                    [allowlist] => 
+                    [denylist] => 
+                    [css] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 5
+                    [type] => textarea
+                    [label] => Message
+                    [description] => 
+                    [size] => small
+                    [placeholder] => 
+                    [limit_count] => 1
+                    [limit_mode] => characters
+                    [default_value] => 
+                    [css] => 
+                )
+
+        )
+
+    [id] => 127
+    [field_id] => 6
+    [settings] => Array
+        (
+            [themes] => Array
+                (
+                    [wpformsTheme] => default
+                    [isCustomTheme] => 
+                    [themeName] => 
+                    [fieldSize] => medium
+                    [fieldBorderStyle] => solid
+                    [fieldBorderSize] => 1
+                    [fieldBorderRadius] => 3
+                    [fieldBackgroundColor] => #ffffff
+                    [fieldBorderColor] => rgba(0, 0, 0, 0.25)
+                    [fieldTextColor] => rgba(0, 0, 0, 0.7)
+                    [labelSize] => medium
+                    [labelColor] => rgba(0, 0, 0, 0.85)
+                    [labelSublabelColor] => rgba(0, 0, 0, 0.55)
+                    [labelErrorColor] => #d63637
+                    [buttonSize] => medium
+                    [buttonBorderStyle] => none
+                    [buttonBorderSize] => 1
+                    [buttonBorderRadius] => 3
+                    [buttonBackgroundColor] => #066aab
+                    [buttonBorderColor] => #066aab
+                    [buttonTextColor] => #ffffff
+                    [containerPadding] => 0
+                    [containerBorderStyle] => none
+                    [containerBorderWidth] => 1
+                    [containerBorderRadius] => 3
+                    [containerBorderColor] => #000000
+                    [containerShadowSize] => none
+                    [backgroundColor] => rgba(0, 0, 0, 0)
+                    [backgroundImage] => none
+                    [backgroundSize] => cover
+                    [backgroundUrl] => url()
+                    [fieldMenuColor] => #ffffff
+                    [pageBreakColor] => #066aab
+                    [customCss] => 
+                    [copyPasteJsonValue] => {"themeName":"","isCustomTheme":"","wpformsTheme":"default","customCss":"","containerPadding":"0","containerBorderStyle":"none","containerBorderWidth":"1","containerBorderRadius":"3","containerShadowSize":"none","containerBorderColor":"#000000","fieldSize":"medium","fieldBorderStyle":"solid","fieldBorderRadius":"3","fieldBorderSize":"1","fieldBackgroundColor":"#ffffff","fieldBorderColor":"rgba(0, 0, 0, 0.25)","fieldTextColor":"rgba(0, 0, 0, 0.7)","fieldMenuColor":"#ffffff","pageBreakColor":"#066aab","labelSize":"medium","labelColor":"rgba(0, 0, 0, 0.85)","labelSublabelColor":"rgba(0, 0, 0, 0.55)","labelErrorColor":"#d63637","buttonSize":"medium","buttonBorderStyle":"none","buttonBorderSize":"1","buttonBorderRadius":"3","buttonBackgroundColor":"#066aab","buttonBorderColor":"#066aab","buttonTextColor":"#ffffff","backgroundColor":"rgba(0, 0, 0, 0)","backgroundPosition":"center center","backgroundUrl":"url()","backgroundRepeat":"no-repeat","backgroundSize":"cover","backgroundSizeMode":"cover","backgroundWidth":"100","backgroundHeight":"100","backgroundImage":"none"}
+                )
+
+            [form_title] => Contact Form
+            [form_desc] => 
+            [submit_text] => Submit
+            [submit_text_processing] => Sending...
+            [form_class] => 
+            [submit_class] => 
+            [ajax_submit] => 1
+            [notification_enable] => 1
+            [notifications] => Array
+                (
+                    [1] => Array
+                        (
+                            [email] => {admin_email}
+                            [subject] => New Blank Form Entry
+                            [sender_name] => wordPress_Basics
+                            [sender_address] => {admin_email}
+                            [replyto] => 
+                            [message] => {all_fields}
+                            [template] => 
+                        )
+
+                )
+
+            [confirmations] => Array
+                (
+                    [1] => Array
+                        (
+                            [type] => message
+                            [message] => <p>Thanks for contacting us! We will be in touch with you shortly.</p>
+                            [message_scroll] => 1
+                            [page] => 
+                            [page_url_parameters] => 
+                            [redirect] => 
+                        )
+
+                )
+
+            [antispam_v3] => 1
+            [anti_spam] => Array
+                (
+                    [time_limit] => Array
+                        (
+                            [enable] => 1
+                            [duration] => 2
+                        )
+
+                    [filtering_store_spam] => 1
+                )
+
+            [form_tags] => Array
+                (
+                )
+
+            [store_spam_entries] => 0
+        )
+
+    [search_terms] => 
+    [providers] => Array
+        (
+            [constant-contact-v3] => Array
+                (
+                )
+
+        )
+
+    [meta] => Array
+        (
+            [template] => blank
+        )
+
+    [created] => 2026-08-21 10:02:13
+    [post_data_raw] => Array
+        (
+            [page_url] => http://localhost/wordpress_basics/
+        )
+
+    [entry_meta] => Array
+        (
+            [page_url] => http://localhost/wordpress_basics/
+            [page_title] => home
+            [page_id] => 42
+            [url_referer] => http://localhost/wordpress_basics/wp-admin/admin.php?page=wpforms-overview
+            [user_id] => 1
+        )
+
+)
+
+[21-Aug-2026 13:00:03 UTC] WordPress database error Table 'wp_basics.wp_contact_messages' doesn't exist for query SHOW FULL COLUMNS FROM `wp_contact_messages` made by do_action('wp_ajax_wpforms_submit'), WP_Hook->do_action, WP_Hook->apply_filters, WPForms_Process->ajax_submit, WPForms_Process->listen, WPForms_Process->process, WPForms_Process->process_complete, do_action('wpforms_process_complete'), WP_Hook->do_action, WP_Hook->apply_filters, save_contact_form_data
+[21-Aug-2026 13:00:03 UTC] ========== Contact Form DB ERROR ==========
+[21-Aug-2026 13:00:03 UTC] Table 'wp_basics.wp_contact_messages' doesn't exist
+[21-Aug-2026 13:03:11 UTC] ========== WPForms Submitted ==========
+[21-Aug-2026 13:03:11 UTC] Array
+(
+    [1] => Array
+        (
+            [name] => Name
+            [value] => Althaf Hussain J
+            [id] => 1
+            [type] => name
+            [first] => 
+            [middle] => 
+            [last] => 
+        )
+
+    [2] => Array
+        (
+            [name] => Email
+            [value] => althaf@gmail.com
+            [id] => 2
+            [type] => email
+        )
+
+    [5] => Array
+        (
+            [name] => Message
+            [value] => Hi Buddy!
+            [id] => 5
+            [type] => textarea
+        )
+
+)
+
+[21-Aug-2026 13:03:11 UTC] ========== Form Data ==========
+[21-Aug-2026 13:03:11 UTC] Array
+(
+    [fields] => Array
+        (
+            [1] => Array
+                (
+                    [id] => 1
+                    [type] => name
+                    [label] => Name
+                    [format] => simple
+                    [description] => 
+                    [required] => 1
+                    [size] => medium
+                    [simple_placeholder] => 
+                    [simple_default] => 
+                    [first_placeholder] => 
+                    [first_default] => 
+                    [middle_placeholder] => 
+                    [middle_default] => 
+                    [last_placeholder] => 
+                    [last_default] => 
+                    [css] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 2
+                    [type] => email
+                    [label] => Email
+                    [description] => 
+                    [required] => 1
+                    [size] => medium
+                    [placeholder] => 
+                    [confirmation_placeholder] => 
+                    [default_value] => 
+                    [filter_type] => 
+                    [allowlist] => 
+                    [denylist] => 
+                    [css] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 5
+                    [type] => textarea
+                    [label] => Message
+                    [description] => 
+                    [size] => small
+                    [placeholder] => 
+                    [limit_count] => 1
+                    [limit_mode] => characters
+                    [default_value] => 
+                    [css] => 
+                )
+
+        )
+
+    [id] => 127
+    [field_id] => 6
+    [settings] => Array
+        (
+            [themes] => Array
+                (
+                    [wpformsTheme] => default
+                    [isCustomTheme] => 
+                    [themeName] => 
+                    [fieldSize] => medium
+                    [fieldBorderStyle] => solid
+                    [fieldBorderSize] => 1
+                    [fieldBorderRadius] => 3
+                    [fieldBackgroundColor] => #ffffff
+                    [fieldBorderColor] => rgba(0, 0, 0, 0.25)
+                    [fieldTextColor] => rgba(0, 0, 0, 0.7)
+                    [labelSize] => medium
+                    [labelColor] => rgba(0, 0, 0, 0.85)
+                    [labelSublabelColor] => rgba(0, 0, 0, 0.55)
+                    [labelErrorColor] => #d63637
+                    [buttonSize] => medium
+                    [buttonBorderStyle] => none
+                    [buttonBorderSize] => 1
+                    [buttonBorderRadius] => 3
+                    [buttonBackgroundColor] => #066aab
+                    [buttonBorderColor] => #066aab
+                    [buttonTextColor] => #ffffff
+                    [containerPadding] => 0
+                    [containerBorderStyle] => none
+                    [containerBorderWidth] => 1
+                    [containerBorderRadius] => 3
+                    [containerBorderColor] => #000000
+                    [containerShadowSize] => none
+                    [backgroundColor] => rgba(0, 0, 0, 0)
+                    [backgroundImage] => none
+                    [backgroundSize] => cover
+                    [backgroundUrl] => url()
+                    [fieldMenuColor] => #ffffff
+                    [pageBreakColor] => #066aab
+                    [customCss] => 
+                    [copyPasteJsonValue] => {"themeName":"","isCustomTheme":"","wpformsTheme":"default","customCss":"","containerPadding":"0","containerBorderStyle":"none","containerBorderWidth":"1","containerBorderRadius":"3","containerShadowSize":"none","containerBorderColor":"#000000","fieldSize":"medium","fieldBorderStyle":"solid","fieldBorderRadius":"3","fieldBorderSize":"1","fieldBackgroundColor":"#ffffff","fieldBorderColor":"rgba(0, 0, 0, 0.25)","fieldTextColor":"rgba(0, 0, 0, 0.7)","fieldMenuColor":"#ffffff","pageBreakColor":"#066aab","labelSize":"medium","labelColor":"rgba(0, 0, 0, 0.85)","labelSublabelColor":"rgba(0, 0, 0, 0.55)","labelErrorColor":"#d63637","buttonSize":"medium","buttonBorderStyle":"none","buttonBorderSize":"1","buttonBorderRadius":"3","buttonBackgroundColor":"#066aab","buttonBorderColor":"#066aab","buttonTextColor":"#ffffff","backgroundColor":"rgba(0, 0, 0, 0)","backgroundPosition":"center center","backgroundUrl":"url()","backgroundRepeat":"no-repeat","backgroundSize":"cover","backgroundSizeMode":"cover","backgroundWidth":"100","backgroundHeight":"100","backgroundImage":"none"}
+                )
+
+            [form_title] => Contact Form
+            [form_desc] => 
+            [submit_text] => Submit
+            [submit_text_processing] => Sending...
+            [form_class] => 
+            [submit_class] => 
+            [ajax_submit] => 1
+            [notification_enable] => 1
+            [notifications] => Array
+                (
+                    [1] => Array
+                        (
+                            [email] => {admin_email}
+                            [subject] => New Blank Form Entry
+                            [sender_name] => wordPress_Basics
+                            [sender_address] => {admin_email}
+                            [replyto] => 
+                            [message] => {all_fields}
+                            [template] => 
+                        )
+
+                )
+
+            [confirmations] => Array
+                (
+                    [1] => Array
+                        (
+                            [type] => message
+                            [message] => <p>Thanks for contacting us! We will be in touch with you shortly.</p>
+                            [message_scroll] => 1
+                            [page] => 
+                            [page_url_parameters] => 
+                            [redirect] => 
+                        )
+
+                )
+
+            [antispam_v3] => 1
+            [anti_spam] => Array
+                (
+                    [time_limit] => Array
+                        (
+                            [enable] => 1
+                            [duration] => 2
+                        )
+
+                    [filtering_store_spam] => 1
+                )
+
+            [form_tags] => Array
+                (
+                )
+
+            [store_spam_entries] => 0
+        )
+
+    [search_terms] => 
+    [providers] => Array
+        (
+            [constant-contact-v3] => Array
+                (
+                )
+
+        )
+
+    [meta] => Array
+        (
+            [template] => blank
+        )
+
+    [created] => 2026-08-21 10:02:13
+    [post_data_raw] => Array
+        (
+            [page_url] => http://localhost/wordpress_basics/
+        )
+
+    [entry_meta] => Array
+        (
+            [page_url] => http://localhost/wordpress_basics/
+            [page_title] => home
+            [page_id] => 42
+            [url_referer] => http://localhost/wordpress_basics/wp-admin/admin.php?page=wpforms-overview
+            [user_id] => 1
+        )
+
+)
+
+[21-Aug-2026 13:03:11 UTC] ========== Contact Form Saved Successfully ==========
+[21-Aug-2026 13:03:11 UTC] Inserted ID: 1
