@@ -56,10 +56,12 @@ $image_url = get_the_post_thumbnail_url(get_the_ID(), 'medium');
 
 <section class="contact-section mt-5">
 
-<h2>Contact Us</h2>
+
 
 <?php
-    echo do_shortcode('[wpforms id="127"]');
+    // echo do_shortcode('[wpforms id="127"]');
+    // echo do_shortcode('[contact-form-7 id="f082e61" title="Custom_Contact_Form"]');
+    // echo do_shortcode('[contact-form-7 id="b8986b1" title="Custom_Contact_Form2"]');
 ?>
 
 </section>
